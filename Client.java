@@ -2,7 +2,14 @@ import java.net.*;
 import java.io.*;
 import java.util.*;
 
-public class Cosc350client {
+
+/*
+ *Arvinderjit Singh
+ * Janusz Pazgier
+ * Alferdo Guillen
+ * Binh dang
+ */
+public class client {
     
     public static void connectWeb (String address) throws IOException {
         Socket socket = new Socket(address, 80);
